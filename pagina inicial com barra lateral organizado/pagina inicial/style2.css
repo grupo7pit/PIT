@@ -1,0 +1,123 @@
+* {margin: 0;
+}
+
+/* Barra lateral */
+a {text-decoration: none;}
+
+.btn-abrir {
+    z-index: 10;
+    color:black;
+    font-size: 25px;
+}
+#menu {height: 100%;
+width: 0px;
+background-color: #b6b5b5;
+position: fixed;
+top:0;
+left:0;
+z-index: 4;
+overflow:hidden;
+transition: width 0.3s;
+}
+
+nav a {color:black;
+    font-size: 25px;
+    display:block;
+    padding:12px 10px 12px 32px;}
+    
+    nav a:hover{ 
+        color: #CEDCED;
+        background-color:white;
+    }
+/* Final barra lateral */
+
+/* Inicio Barra principal (header)*/
+
+#conteudo{
+    transition:margin-left 0.5s;
+}
+
+.row{
+    z-index: -102;
+}
+#header{
+    z-index: -103;
+    top: 5px;
+    position: fixed;
+}
+
+#logo{
+    z-index: -10;
+    height: 100px;
+    right: 750px;
+}
+
+.lupinha{
+    right: 100px;
+    position: absolute;
+    z-index: -98;
+    height: 10px;
+}
+
+#site-search{
+    left: 700px;
+    width: 500px;
+    z-index: -99;
+    position: absolute;
+}
+.sai{
+    background: none;
+    right: 630px;
+    position: absolute;
+    border: none;
+}
+#paginainicial{
+    z-index: -101;
+    right: 250px;
+    position: absolute;
+}
+
+#categorias{
+    z-index: -100;
+    right: 120px;
+    position: absolute;
+}
+
+#fotoperfil{
+    right: 5px;
+    position: absolute;
+}
+
+#escritosearch{
+    top: 2px;
+    left: 930px;
+    position: absolute;
+}
+
+/*Final Barra principal (header)*/
+
+/*Inicio quadrados*/
+#back{
+    background-color: #D9D9D9;
+    height: 300px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    border: solid 1px none;
+    border-radius: 10%;
+    transition: 500ms;
+}
+
+#back:hover{
+    height: 400px;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+#mid{
+    margin-top: 10%;
+}
+
+/*Final quadrados*/
